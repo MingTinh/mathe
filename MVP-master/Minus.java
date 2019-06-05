@@ -8,6 +8,8 @@ Einfachste Variante einer Aufgabe
 Zwei Zahlen werden zufällig gewählt. Wenn das Ergebnis die Summe der Zahlen war, ist die Aufgabe richtig gelöst worden
  */
 
+
+
 public class Minus extends Aufgabe
 {
     // Die beiden Zahlen
@@ -29,7 +31,8 @@ public class Minus extends Aufgabe
 
         // Erstellt ein Objekt für neue Zufallszahlen
         random = new Random();     
-
+        System.out.println("aha ok");
+   
     }
 
     // Methoden
